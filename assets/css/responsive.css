@@ -1,0 +1,342 @@
+/* Medium Layout: 1280px. 
+
+Checking Size: 1000px
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+    .single-img {
+        flex-basis: 350px;
+    }
+    .single-info {
+        flex-basis: 603px;
+    }
+    .about-img {
+        width: 350px;
+    }
+    .single-gallery {
+        padding: 181px 0 0;
+        flex-basis: 242px;
+    }
+    .veraity-menu {
+        flex-basis: 285px;
+    }
+    .single-menu img {
+        width: 30%;
+    }
+    .single-testi {
+        flex-basis: 282px;
+        margin-right: 0;
+    }
+    .test {
+        flex-basis: 61px;
+    }
+    .testi-img h3 {
+        font-size: 17px;
+        padding-left: 10px;
+    }
+    .testi-img span {
+        font-size: 14px;
+    }
+    .chefs {
+        margin: 45px 0 0;
+    }
+    .single-chef {
+        flex-basis: 229px;
+        padding: 369px 0 0;
+    }
+    .blogs {
+        margin: 34px 0;
+    }
+    .orders {
+        width: 60%;
+    }
+    .single-footer {
+        flex-basis: 235px;
+    }
+    .footer-area .social-link {
+        margin: 28px 90px 0 -9px;
+    }
+}
+
+/* Tablet Layout: 768px. 
+
+Checking Size: 800px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .logo {
+        padding-bottom: 12px;
+    }
+    .order {
+        margin-top: 30px;
+    }
+    .banner {
+        top: 50%;
+        transform: translate(0, -50%);
+        left: 0;
+        padding-left: 29px;
+    }
+    .about {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 0 0 10px;
+        flex-direction: column;
+    }
+    .single-img {
+        flex-basis: 100%;
+    }
+    .single-info {
+        flex-basis: 100%;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .info {
+        padding: 79px;
+        position: absolute;
+        margin-top: -730px;
+        margin-left: 0; 
+    }
+    .gallery-area .section-info h3 {
+        margin-top: 280px;
+    }
+    .single-gallery {
+        padding: 261px 0 0;
+        flex-basis: 375px;
+    }
+    .menu {
+        flex-direction: column;
+        margin-top: 41px;
+        margin-bottom: 28px;
+    }
+    .single-menu {
+        align-items: center;
+    }
+    .single-menu h3 {
+        font-size: 25px;
+        padding-right: 221px;
+    }
+    .single-menu span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .banner-area {
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        z-index: 2;
+        padding: 740px 0 0;
+        height: 0;
+    }
+    .testimonial-area {
+        background-position: -426px -343px;
+        padding-top: 961px;
+    }
+    .testimonial-area .section-info {
+        margin-top: -959px;
+    }
+    .testimonial {
+        flex-direction: column;
+    }
+    .single-testi {
+        flex-basis: 100%;
+        margin-right: 44px;
+    }
+    .testi-img {
+        margin-top: 13px;
+    }
+    .chefs {
+        margin: 39px 0;
+    }
+    .single-chef {
+        flex-basis: 375px;
+        padding: 379px 0 0;
+    }
+    .blogs {
+        margin: 34px 0;
+    }
+    .single-blog {
+        flex-basis: 239px;
+        padding: 105px 0;
+    }
+    .orders {
+        width: 78%;
+        padding: 41px 35px 80px;
+        margin-left: 77px;
+    }
+    .single-footer {
+        flex-basis: 280px;
+        margin: 20px 0;
+    }
+}
+
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px){
+    .container{
+        width: 350px;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .menu {
+        margin: 15px 35px 31px;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu ul li {
+        margin: 8px 20px;
+    }
+    .banner-area {
+        background-position: -315px 0px;
+        height: 0;
+        padding-top: 461px;
+        background-repeat: no-repeat;
+    }
+    .banner {
+        margin-top: 163px;
+        margin-left: 0; 
+    }
+    .banner h3 {
+        font-size: 45px;
+    }
+    .banner span {
+        font-size: 46px;
+    }
+
+    /* About Area */
+    .about {
+        flex-direction: column;
+    }
+    .single-img {
+        flex-basis: 100%;
+    }
+    .single-info {
+        flex-basis: 100%;
+    }
+    .about-img {
+        width: 100%;
+        margin-top: 34px;
+    }
+    .info {
+        padding: 29px;
+        margin-top: -417px;
+        margin-left: 18px;
+        background: white;
+    }
+
+    /* Gallery Area */
+    .gallery {
+        flex-direction: column;
+    }
+    .single-gallery {
+        padding: 251px 0 0;
+        margin-bottom: 22px;
+    }
+    .veraity-menu {
+        flex-basis: 100%;
+    }
+    .single-menu {
+        flex-direction: column;
+    }
+    .single-menu h3 {
+        font-size: 18px;
+        padding-top: 15px;
+        padding-right: 0; 
+    }
+
+    /* Testimonial Area */
+    .testimonial-area {
+        background-position: -925px -371px;
+        padding-top: 1160px;
+        background-repeat: no-repeat;
+    }
+    .testimonial-area .section-info {
+        margin-top: -1158px;
+    }
+    .testimonial {
+        flex-direction: column;
+    }
+    .single-testi {
+        flex-basis: 100%;
+        margin-left: 0;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    /* Chefs Area */
+    .chefs {
+        flex-direction: column;
+    }
+    .single-chef {
+        flex-basis: 100%;
+        padding: 516px 0 0;
+        margin-bottom: 23px;
+    }
+
+    /* Blogs Area */
+    .blogs {
+        margin: 34px 0;
+        flex-direction: column;
+    }
+    .single-blog {
+        flex-basis: 100%;
+        padding: 214px 0 0;
+        margin-bottom: 25px;
+    }
+    .orders {
+        width: 100%;
+    }
+    .single-order {
+        flex-basis: 100%;
+    }
+    .single-order form input {
+        width: 100%;
+    }
+    .single-order form select {
+        width: 100%;
+        height: 40px;
+    }
+    .orders-area .order {
+        margin-left: 37px;
+    }
+
+    /* Footer Area */
+    .footer {
+        flex-direction: column;
+    }
+    .single-footer {
+        flex-basis: 100%;
+        margin: 25px 0;
+    }
+    .footer-area .social-link {
+        margin: 28px 212px 0 0;
+    }
+    .single-footer h3 {
+        padding-bottom: 25px;
+    }
+    .copyright {
+        margin: 27px 0 0;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .container{
+        width: 450px;
+    }
+}
